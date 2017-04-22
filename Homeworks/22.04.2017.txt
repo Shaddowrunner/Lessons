@@ -1,0 +1,4 @@
+1) В строке "Hello world" поменять слово "world" на "friend" методами класса String.
+2) В предложении "Initializes a newly created String object so newly it represents an String character sequence"
+подсчитать количество слов.//split
+3) Почитать об игнорировании файлов в гит (53 страница), 35, 40-60.

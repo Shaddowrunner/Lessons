@@ -10,3 +10,4 @@ ctrl + n - find java classes
 ctrl + shift + n - find java + other classes
 ctrl + shift + f - find any text anywhere(whole project or directory)
 alt + insert(body of class) - creating getter/setter, constructor etc.
+ctrl + shift +/- - развернуть/свернуть методы
