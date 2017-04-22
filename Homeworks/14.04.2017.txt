@@ -1,0 +1,7 @@
+1) Доделать калькулятор.
+2) Создать отдельный репозиторий на github. Добавить созданный репозиторий в git(git remote).
+  Директорию с проектом Leesons, сделать ее репозиторием и залить код на github.
+3) В строке "Hello world" поменять слово "world" на "friend" методами класса String.
+4) В предложении "Initializes a newly created String object so newly it represents an String character sequence"
+подсчитать количество слов.//split
+5) Попробовать дебаггер в Калькуляторе
