@@ -27,8 +27,6 @@ public class TestList {
 
         list.showElementsByRightOrder();
 
-        list.reSize();
-
         System.out.println();
 
         list.showElementsByRightOrder();

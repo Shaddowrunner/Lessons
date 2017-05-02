@@ -22,6 +22,7 @@ public class LearnString {
 //        System.out.println(str);
         changeValue(a);
         System.out.println(a);
+        System.out.println(a);
 //        str1 = str;
 
   //    System.out.println(s == str);
