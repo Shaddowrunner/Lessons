@@ -24,11 +24,11 @@ public class LearnString {
         System.out.println(a);
 //        str1 = str;
 
-//        System.out.println(s == str);
-//        System.out.println(s == str.intern());
+  //    System.out.println(s == str);
+ //     System.out.println(s == str.intern());
 //        System.out.println(s == str);
 
-       /* for (int i = 0; i < s.length(); i++) {
+      /*  for (int i = 0; i < s.length(); i++) {
             char element = s.charAt(i);
             System.out.println(element);
         }*/

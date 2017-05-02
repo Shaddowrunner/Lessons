@@ -6,6 +6,7 @@ ctrl + tab - переключение между файлами
 ctrl + / - однострочный комментарий
 ctrl +shift + / - многстрочный комментарий
 ctrl + shift + ENTER -> создание тела + форматирование + переход в тело
+ctrl + shift + space -> подстановка типа при создании объекта
 ctrl + n - find java classes
 ctrl + shift + n - find java + other classes
 ctrl + shift + f - find any text anywhere(whole project or directory)

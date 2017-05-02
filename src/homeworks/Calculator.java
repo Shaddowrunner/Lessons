@@ -5,8 +5,8 @@ package homeworks;
  * Дл каждого действия(+, -, /, *) над полями менять поля через сеттеры.
  */
 public class Calculator {
-    private int first;
-    private int second;
+    private int first;//0
+    private int second;//0
 
     public Calculator(int newFirst, int newSecond) {
         this.first = newFirst;
@@ -27,7 +27,7 @@ public class Calculator {
 
 
     public int degree() {
-        return first * second;
+        return first / second;
     }
 
 
