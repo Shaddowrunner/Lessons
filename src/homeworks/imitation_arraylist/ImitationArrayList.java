@@ -63,6 +63,10 @@ public class ImitationArrayList {
         return array;
     }
 
+    public void setArray(int[] array) {
+        this.array = array;
+    }
+
     //2) увеличение листа на заданное количество элементов.
 
     public void addSize(int newSize) {
