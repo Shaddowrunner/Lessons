@@ -16,9 +16,17 @@ public class Calculator {
     public int plus() {
         return first + second;
     }
+    //Only for testing
+    public int plus(int valueOne, int valueTwo) {
+        return valueOne + valueTwo;
+    }
 
     public int minus() {
         return first - second;
+    }
+
+    public int minus(int valueOne, int valueTwo) {
+        return valueOne - valueTwo;
     }
 
     public int multiply() {

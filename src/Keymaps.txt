@@ -1,10 +1,12 @@
 alt + insert(project window) - create java class, files, packages
 ctrl + shift + F10 - run programm
+shift + F6 - rename something
 ctrl + d - duplication of string text
 ctrl + c - copy full string
 ctrl + tab - переключение между файлами
 ctrl + / - однострочный комментарий
-ctrl +shift + / - многстрочный комментарий
+ctrl + shift + / - многстрочный комментарий
+ctrl + shift + u - перевод в верхний\нижний регистр.
 ctrl + shift + ENTER -> создание тела + форматирование + переход в тело
 ctrl + shift + space -> подстановка типа при создании объекта
 ctrl + n - find java classes

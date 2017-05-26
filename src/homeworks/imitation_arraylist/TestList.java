@@ -16,20 +16,33 @@ public class TestList {
         list.addElement(34);
         list.addElement(5);
         list.addElement(7);
-        list.addElement(21);
 
 
         list.showElementsByRightOrder();
 
-        list.changeElementByIndex(2,6);
+//        list.changeElementByIndex(2,6);
+
+        System.out.println();
+
+//        list.showElementsByInverseOrder();
+
+//        System.out.println();
+
+//        list.decreaseSize(1);
+
+//        System.out.println();
+
+//        list.deleteElement(0);
+     //   list.showElementsByRightOrder();
+
+        list.bubbleSort();
 
         System.out.println();
 
         list.showElementsByRightOrder();
 
-        System.out.println();
 
-        list.showElementsByRightOrder();
+
 
     }
 }
