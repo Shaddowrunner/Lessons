@@ -11,7 +11,7 @@ import java.nio.file.*;
 
 public class ChildWrite extends Writer {
 
-    public static final String PATH_TO_FILE = "./Poem.txt";
+    public static final String PATH_TO_FILE = "./textfiles/Poem.txt";
 
     @Override
     public void write(String text) {

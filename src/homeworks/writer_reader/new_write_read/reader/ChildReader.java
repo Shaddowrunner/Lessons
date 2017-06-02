@@ -11,7 +11,8 @@ import java.nio.file.Paths;
  * Created by Shaddowrunner on 25.05.2017.
  */
 public class ChildReader extends Reader {
-    public static final String PATH_TO_FILE = "./Poem.txt";
+
+    public static final String PATH_TO_FILE = "./textfiles/Poem.txt";
 
     @Override
     public String read() {
