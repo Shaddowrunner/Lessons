@@ -1,5 +1,7 @@
 package homeworks.imitation_arraylist;
 
+import java.time.LocalDateTime;
+
 public class ImitationArrayList {
     private int[] array;//0
 
@@ -15,10 +17,13 @@ public class ImitationArrayList {
         for (int i = 0; i < array.length; i++) {
             if (array[i] == 0) {
                 array[i] = value;
+                String log = LocalDateTime.now() + " addElement -> input parameters: "  + value;
                 break;
             }
         }
     }
+
+//    writeLog(String log)
 
     public void deleteElement(int index) {
         int[] temp = new int[array.length - 1];
@@ -110,14 +115,15 @@ public class ImitationArrayList {
     //Cортировка листа(пузырьковая сортировка).
 
     public void bubbleSort() {
+        for (int i = 0; i < array.length ; i++) {
+            for (int j = 0; j < array.length - 1; j++) {
+                if (array[j] < array[j + 1]) {
+                    int temp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
+                }
 
-        for (int j = 0; j < array.length - 1; j++) {
-            if (array[j] < array[j + 1]) {
-                int temp = array[j];
-                array[j] = array[j + 1];
-                array[j + 1] = temp;
             }
-
         }
 
     }
